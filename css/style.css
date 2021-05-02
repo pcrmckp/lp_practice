@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+main {
+  margin-bottom: 100px;
+}
+
 .header_ttl {
   float: left;
   padding: 6px 0;
@@ -76,13 +80,13 @@ a {
 
 .s_message {
   position: absolute;
-  top: 300px;
+  top: 320px;
   left: 470px;
 }
 
 .t_message {
   position: absolute;
-  top: 320px;
+  top: 350px;
   left: 470px;
   font-weight: 100;
   line-height: 1.5rem;
@@ -139,6 +143,7 @@ div dl .news {
   margin: 0;
   padding: 0;
   height: 100%;
+  align-items: center;
 }
 div .news dt {
   margin: 0;
@@ -151,6 +156,7 @@ div .news dd {
   padding: 1rem 0 1rem 7rem;
   color: rgb(114, 111, 111);
   font-size: 12px;
+  text-align: center;
 }
 
 .news_icon {
@@ -174,7 +180,8 @@ div .news dd {
 .about {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .news_name2 {
@@ -198,7 +205,7 @@ div .news dd {
 }
 .comment_con {
   display: block;
-  width: 300px;
+  width: 320px;
   height: 90px;
   position: relative;
   top: 70px;
@@ -211,11 +218,14 @@ div .news dd {
 }
 
 .img_container {
-  width: 22%;
+  width: 35%;
+  text-align: center;
 }
 
-.about {
-  width: 100%;
+.about_img {
+  width: 80%;
+  display: block;
+  margin: 70px auto 10px auto;
 }
 
 .container2 {
@@ -223,7 +233,8 @@ div .news dd {
   height: 400px;
   width: 100%;
   display: flex;
-  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 .service {
@@ -238,6 +249,11 @@ div .news dd {
   color: rgb(179, 31, 75);
 }
 
+.text {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .comment3 {
   position: absolute;
   top: 70px;
@@ -245,46 +261,43 @@ div .news dd {
   color: rgb(83, 83, 83);
 }
 
-.box_wrapper1 {
+.wrapper_service {
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-
-.box_wrapper2 {
-  display: block;
   justify-content: center;
-  align-items: center;
 }
 
 .box1 {
-  width: 270px;
+  width: 320px;
   height: 230px;
   background-color: rgb(173, 15, 62);
 }
 
 .box2 {
-  width: 270px;
+  width: 320px;
   height: 115px;
   background-color: rgb(156, 79, 137);
+  display: flex;
+  align-items: center;
 }
 
 .box3 {
-  width: 270px;
+  width: 320px;
   height: 115px;
   background-color: rgb(170, 129, 160);
+  display: flex;
+  align-items: center;
 }
 
 .img_container2 {
   width: 40%;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
 .service_img {
   width: 100%;
   margin: 0 auto;
-  display: block;
 }
 
 .img_container3 {
@@ -337,25 +350,21 @@ div .news dd {
 }
 
 .contents2 {
-  text-align: center;
+  text-align: left;
   color: rgb(250, 244, 244);
   font-size: 12px;
-  position: relative;
-  top: -60px;
+  margin-bottom: 7px;
 }
 
 .contents3 {
-  text-align: center;
+  text-align: left;
   color: rgb(250, 244, 244);
   font-size: 12px;
-  position: relative;
-  top: -60px;
+  margin-bottom: 7px;
 }
 
 .exp_list {
   list-style: none;
-  text-align: right;
-  position: relative;
   bottom: 40px;
 }
 .exp_item {
@@ -393,7 +402,7 @@ div .news dd {
 .wrapper {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -515,31 +524,35 @@ table th {
 }
 
 .item_rec {
-  background-image: url("../img/recruit.png");
+  background: url("../img/recruit.png") no-repeat;
   width: 100%;
-  height: 100%;
+  height: 300px;
 }
 
 .item_int {
-  background-image: url(../img/interview.png);
+  background-image: url("../img/interview.png");
+  width: 100%;
+  height: 300px;
 }
 
 .title_2,
 .title_3 {
-  background-color: rgb(68, 64, 64);
   color: #fff;
   font-size: 25px;
   z-index: 100;
-  text-align: center;
   height: 100%;
-  width: 50;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container6 {
   background: #fff;
-  height: 150px;
+  height: 200px;
   width: 100%;
   display: flex;
+  position: relative;
 }
 
 .contact {
@@ -550,7 +563,12 @@ table th {
 }
 
 .contact2 {
-  height: 20px;
+  height: 50px;
+  width: 3px;
+  background-color: #cc2c97;
+  position: absolute;
+  top: 100px;
+  left: 50%;
 }
 
 footer {
