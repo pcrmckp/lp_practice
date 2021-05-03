@@ -138,25 +138,21 @@ a {
 .whatsnew {
   color: rgb(75, 71, 71);
 }
+.table {
+  border-collapse: collapse;
+}
 
-div dl .news {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  align-items: center;
-}
-div .news dt {
-  margin: 0;
-  padding: 1rem 0;
-  border-bottom: inset;
-  color: rgb(114, 111, 111);
-}
-div .news dd {
-  margin: -3.5rem 0 0 0;
-  padding: 1rem 0 1rem 7rem;
-  color: rgb(114, 111, 111);
-  font-size: 12px;
+.date,
+.news_item {
+  border-bottom: solid 1px;
+  border: 0px none;
+  padding: 5px 10px;
   text-align: center;
+  background: #fff;
+}
+
+.news_item {
+  width: 400px;
 }
 
 .news_icon {
@@ -243,22 +239,18 @@ div .news dd {
   display: block;
   width: 65px;
   height: 35px;
-  position: relative;
-  top: 40px;
-  left: 200px;
   color: rgb(179, 31, 75);
 }
 
 .text {
-  display: flex;
-  justify-content: flex-start;
+  position: relative;
+  top: 10px;
+  left: 120px;
 }
 
 .comment3 {
-  position: absolute;
-  top: 70px;
-  left: 200px;
   color: rgb(83, 83, 83);
+  position: absolute;
 }
 
 .wrapper_service {
@@ -386,7 +378,7 @@ div .news dd {
   display: block;
   width: 65px;
   height: 35px;
-  position: relative;
+  position: absolute;
   top: 10px;
   left: 120px;
   color: rgb(179, 31, 75);
@@ -401,8 +393,8 @@ div .news dd {
 
 .wrapper {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: space-around;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -418,6 +410,7 @@ div .news dd {
   border: 1px solid #e9eaea;
   border-radius: 12px;
   background: #fff;
+  margin-top: 50px;
 }
 
 .text_box {
@@ -473,12 +466,13 @@ div .news dd {
   height: 500px;
   width: 100%;
   display: flex;
+  position: relative;
 }
 
 .company {
   font-family: "Comic Sans MS", sans-serif;
   font-size: 7px;
-  position: relative;
+  position: absolute;
   top: 10px;
   left: 120px;
   color: rgb(179, 31, 75);
@@ -486,9 +480,9 @@ div .news dd {
 
 .comment5 {
   width: 100px;
-  position: relative;
+  position: absolute;
   top: 40px;
-  left: 65px;
+  left: 120px;
   color: rgb(83, 83, 83);
 }
 
