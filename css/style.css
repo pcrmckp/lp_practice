@@ -140,6 +140,7 @@ a {
 }
 .news_table {
   border-collapse: collapse;
+  width: 100%;
 }
 
 .news_tr {
@@ -500,7 +501,7 @@ a {
 }
 
 table {
-  width: 100%;
+  width: 60%;
 }
 
 table th {
