@@ -138,10 +138,14 @@ a {
 .whatsnew {
   color: rgb(75, 71, 71);
 }
-.table {
+.news_table {
   border-collapse: collapse;
 }
 
+.news_tr {
+  border-bottom: solid 2px;
+  color: #ccc;
+}
 .date,
 .news_item {
   border-bottom: solid 1px;
@@ -152,7 +156,9 @@ a {
 }
 
 .news_item {
-  width: 400px;
+  width: 500px;
+  color: #000;
+  padding: 10px;
 }
 
 .news_icon {
@@ -494,7 +500,7 @@ a {
 }
 
 table {
-  width: 60%;
+  width: 100%;
 }
 
 table th {
@@ -511,6 +517,10 @@ table td {
 table th {
   font-weight: bold;
   background: #dedede;
+}
+
+.container5 {
+  width: 100%;
 }
 
 .img_wrap {
