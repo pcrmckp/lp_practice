@@ -247,17 +247,20 @@ a {
   width: 65px;
   height: 35px;
   color: rgb(179, 31, 75);
+  position: absolute;
+  top: 10px;
+  left: 120px;
 }
 
 .text {
   position: relative;
-  top: 10px;
-  left: 120px;
 }
 
 .comment3 {
   color: rgb(83, 83, 83);
   position: absolute;
+  top: 30px;
+  left: 120px;
 }
 
 .wrapper_service {
@@ -413,15 +416,28 @@ a {
 
 .card {
   width: 15%;
+  height: 220px;
   cursor: pointer;
   border: 1px solid #e9eaea;
   border-radius: 12px;
   background: #fff;
   margin-top: 50px;
+  position: relative;
 }
 
-.text_box {
-  padding: 15px;
+.small_card {
+  background: rgb(158, 41, 142);
+  color: #fff;
+  font-size: 13px;
+  width: 80px;
+  height: 30px;
+  border-top-left-radius: 12px;
+  z-index: 100;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content_img {
@@ -431,17 +447,27 @@ a {
   border-radius: 12px 12px 0 0;
 }
 
-.words4 {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
+.text_box {
+  padding: 15px;
+  width: 80%;
+  text-align: center;
 }
 
-.date,
-.tag {
-  font-size: 10px;
+.words4 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+  background-color: none;
+}
 
+.date2,
+.tag {
+  font-size: 8px;
+  display: inline-block;
+  align-self: center;
   color: rgb(114, 111, 111);
+  width: 50%;
 }
 
 .title {
@@ -578,18 +604,19 @@ table th {
 
 footer {
   width: 100%;
-  height: 50px;
+  height: 70px;
   background: rgb(229, 226, 226);
   text-align: center;
-  padding: 0;
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .inner {
   color: rgb(158, 154, 154);
   font-size: 0.875rem;
-  height: 100%;
-  display: inline-block;
-  padding: 1rem 0 1rem 0;
+  width: 100%;
 }
 
 .btn {
