@@ -556,12 +556,14 @@ table th {
 
 .item_rec {
   background: url("../img/recruit.png") no-repeat;
+  background-size: cover;
   width: 100%;
   height: 300px;
 }
 
 .item_int {
   background-image: url("../img/interview.png");
+  background-size: cover;
   width: 100%;
   height: 300px;
 }
