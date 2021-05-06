@@ -55,7 +55,7 @@ a {
 }
 
 .fv_container {
-  width: 50%;
+  width: 60%;
   margin: 0 0 0 auto;
 }
 
@@ -72,21 +72,21 @@ a {
 .f_message {
   font-family: "Comic Sans MS", sans-serif;
   font-size: 2rem;
-  line-height: 4rem;
+  line-height: 3rem;
   position: absolute;
-  top: 105px;
+  top: 80px;
   left: 470px;
 }
 
 .s_message {
   position: absolute;
-  top: 320px;
+  top: 200px;
   left: 470px;
 }
 
 .t_message {
   position: absolute;
-  top: 350px;
+  top: 240px;
   left: 470px;
   font-weight: 100;
   line-height: 1.5rem;
@@ -375,6 +375,12 @@ a {
   line-height: 1rem;
 }
 
+.text_box {
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+}
+
 .container3 {
   background: rgb(214, 209, 209);
   height: 360px;
@@ -447,27 +453,33 @@ a {
   border-radius: 12px 12px 0 0;
 }
 
-.text_box {
-  padding: 15px;
-  width: 80%;
+.text_box_blog {
+  width: 100%;
   text-align: center;
+  position: absolute;
+  top: 130px;
+  right: -10px;
 }
 
 .words4 {
   display: flex;
-  justify-content: space-around;
-  width: 100%;
-  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
   background-color: none;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .date2,
 .tag {
-  font-size: 8px;
+  font-size: 7px;
   display: inline-block;
   align-self: center;
   color: rgb(114, 111, 111);
   width: 50%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .title {
